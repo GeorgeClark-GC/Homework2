@@ -7,5 +7,12 @@ public class Main {
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
+        var x = 4;
+        dog = dog + x;
+        System.out.println(dog);
+        cat = cat + x;
+        System.out.println(cat);
+        paper = paper + x;
+        System.out.println(paper);
     }
 }
