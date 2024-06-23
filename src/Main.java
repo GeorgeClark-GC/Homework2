@@ -7,12 +7,11 @@ public class Main {
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
-        var x = 4;
-        dog = dog + x;
+        dog = dog - 3.5;
         System.out.println(dog);
-        cat = cat + x;
+        cat = cat - 1.6;
         System.out.println(cat);
-        paper = paper + x;
+        paper = paper - 7639;
         System.out.println(paper);
     }
 }
