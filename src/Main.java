@@ -6,5 +6,7 @@ public class Main {
         System.out.println("Общий вес обоих боксеров: " + totalWeight);
         var differenceOfWeight = secondBoxer - firstBoxer;
         System.out.println("Разница в весе боксеров: " + differenceOfWeight);
+        var remainder = secondBoxer % firstBoxer;
+        System.out.println("Остаток от деления между двумя весами: " + remainder);
     }
 }
